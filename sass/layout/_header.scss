@@ -1,0 +1,43 @@
+
+.header {
+background-color: var(--main-bg-cl);
+border-bottom: 1px solid #ECECEC;
+}
+
+.header__container {
+align-items: center;
+display: flex;   
+}
+
+.header__logo {
+
+padding-top: 16px;
+padding-bottom: 16px;
+
+
+//tablet styles
+@media screen and (min-width: 768px) {
+padding-top: 26px;
+padding-bottom: 26px;  
+margin-right: 87px;
+}    
+       
+//desktop styles
+@media screen and (min-width: 1200px) {
+padding-top: 25px;
+padding-bottom: 25px;  
+margin-right: 92px;
+//margin-left: 200px;
+}
+
+}
+
+
+.header__nav {
+margin-right: auto;
+}
+
+
+
+
+  

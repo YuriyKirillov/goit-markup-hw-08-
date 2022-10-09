@@ -1,0 +1,37 @@
+    
+h1,h2,h3,h4,h5,h6,p,ul {
+ margin: 0;
+}
+
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+.link {
+text-decoration: none;
+color: currentColor;
+font-family: var(--main-font);
+font-style: var(--fonts-st);
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.02em;
+color: var(--main-txt-cl);
+transition: color var(--animation), box-shadow var(--animation);  
+
+
+&:hover,
+&:focus {
+color: var(--accent-txt-cl);
+}
+}
+
+.list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+    

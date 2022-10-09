@@ -1,0 +1,59 @@
+
+//Utils Styles
+@import "./utils/vars";
+
+//Base Styles
+@import "./base/base";
+@import "./base/reset";
+@import "./base/section";
+
+//Special Styles
+@import "./components/conteiner";
+@import "./utils/hidden";
+
+
+//Header
+@import "./layout/header";
+@import "./components/nav";
+@import "./components/contacts";
+@import "./components/logo";
+@import "./components/site-nav";
+@import "./components/menu";
+
+
+//Hero
+@import "./layout/hero";
+@import "./components/btn";
+
+//Advantage
+@import "./layout/advantage";
+
+//Opportunity
+@import "./layout/opportunity";
+
+//Team
+@import "./layout/team";
+@import "./components/icon";
+@import "./layout/social";
+
+//Customers
+@import "./layout/customers";
+
+//Footer
+@import "./layout/footer";
+@import "./layout/form";
+@import "./layout/address";
+
+//Filters
+@import "./layout/filters";
+
+//Modal Window
+@import "./components/modal-window";
+
+//Mobile menu
+@import "./components/mobile-menu";
+@import "./components/mobile-nav";
+@import "./components/mobile-social";
+
+
+
